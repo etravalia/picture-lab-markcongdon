@@ -1,0 +1,2 @@
+language = "java10"
+run = "cd pixLab && javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d . Picture.java ColorChooser.java DigitalPicture.java FileChooser.java ImageDisplay.java IntArrayWorker.java IntArrayWorkerTester.java PictureExplorer.java PictureFrame.java PictureTester.java SimplePicture.java Pixel.java && java Picture"
